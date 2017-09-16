@@ -33,16 +33,16 @@ To build the ChargeBeeDataSync distribution, type the following command:
 ```
 $ sbt dist
 ```
-After a successful compilation, the distribution is located inside the ./target/universal/chargebeedatasync-*.zip archive.
-You may run the client by extracting the archive and run the script "chargeBeeDataSync.sh" in "./chargebeedatasync-*/bin" folder.
+After a successful compilation, the distribution is located inside the ./target/universal/chargebeedatasync-x.zip archive.
+You may run the client by extracting the archive and run the script chargeBeeDataSync.sh in ./chargebeedatasync-x/bin folder.
 
 #### Usage: chargeBee data sync [options]
 
-  --site <value>  ChargeBee site name (required)
-  --key <value>   ChargeBee API key (required)
-  --uri <value>   MongoDB URI (default: "mongodb://localhost:27017")
-  --db <value>    db name (default: "chargeBee")
-  --help          prints this usage text
+  <br />--site <value>  ChargeBee site name (required)
+  <br />--key <value>   ChargeBee API key (required)
+  <br />--uri <value>   MongoDB URI (default: "mongodb://localhost:27017")
+  <br />--db <value>    db name (default: "chargeBee")
+  <br />--help          prints this usage text
 
 ## Contributions
 
