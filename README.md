@@ -15,7 +15,7 @@
   ChargeBeeDataSync: A Scala tool for ChargeBee API
 </pre>
 
-#ChargeBeeDataSync
+# ChargeBeeDataSync
 
 ChargeBeeDataSync is an open-source tool for synchronizing data from [ChargeBee API](https://apidocs.chargebee.com/docs/api) written in [Scala programming language](http://scala-lang.org).
 
@@ -31,7 +31,7 @@ Resources that do not contain the aforementioned attributes will be synchronized
 You ought to enable Order Management in your ChargeBee website for retrieving the orders, otherwise an error will be occurred (go Settings -> Site Info & Billing Rules).
 You should have a MongoDB service running on your system.
 
-###Building and Running
+#### Building and Running
 To build the ChargeBeeDataSync distribution, type the following command:
 ```
 $ sbt dist
@@ -39,7 +39,7 @@ $ sbt dist
 After a successful compilation, the distribution is located inside the ./target/universal/chargebeedatasync-*.zip archive.
 You may run the client by extracting the archive and run the script "chargeBeeDataSync.sh" in "./chargebeedatasync-*/bin" folder.
 
-####Usage: chargeBee data sync [options]
+#### Usage: chargeBee data sync [options]
 
   --site <value>  ChargeBee site name (required)
   --key <value>   ChargeBee API key (required)
