@@ -25,8 +25,8 @@ Resources that do not contain the aforementioned attributes will be synchronized
 
 #### Requirements:
 
-You ought to enable Order Management in your ChargeBee website for retrieving the orders, otherwise an error will be occurred (go Settings -> Site Info & Billing Rules).
-You should have a MongoDB service running on your system.
+You ought to enable Order Management in your ChargeBee website for retrieving the orders, otherwise an error will occur (go Settings -> Site Info & Billing Rules).
+<br />You should have a MongoDB service running on your system.
 
 #### Building and Running
 To build the ChargeBeeDataSync distribution, type the following command:
