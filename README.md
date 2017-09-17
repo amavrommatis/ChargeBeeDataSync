@@ -4,11 +4,11 @@
     / /___/ / / / /_/ / /  / /_/ /  __/ /_/ /  __/  __/
     \____/_/ /_/\__,_/_/   \__, /\___/_____/\___/\___/
                         /____/
-         __     __
-     ___/ /__ _/ /____ _  ___ __ _____  ____
-    / _  / _ `/ __/ _ `/ (_-</ // / _ \/ __/
-    \_,_/\_,_/\__/\_,_/ /___/\_, /_//_/\__/
-                            /___/
+            __     __
+        ___/ /__ _/ /____ _  ___ __ _____  ____
+       / _  / _ `/ __/ _ `/ (_-</ // / _ \/ __/
+       \_,_/\_,_/\__/\_,_/ /___/\_, /_//_/\__/
+                               /___/
 
 ChargeBeeDataSync: A Scala tool for ChargeBee API
 
@@ -34,11 +34,11 @@ To build the ChargeBeeDataSync distribution, type the following command:
 $ sbt dist
 ```
 After a successful compilation, the distribution is located inside the ./target/universal/chargebeedatasync-x.zip archive.
-You may run the client by extracting the archive and run the script chargeBeeDataSync.sh in ./chargebeedatasync-x/bin folder.
+<br />You may run the client by extracting the archive and run the script chargeBeeDataSync.sh in ./chargebeedatasync-x/bin folder.
 
 #### Usage: chargeBee data sync [options]
 
-  <br />--site <value>  ChargeBee site name (required)
+  --site <value>  ChargeBee site name (required)
   <br />--key <value>   ChargeBee API key (required)
   <br />--uri <value>   MongoDB URI (default: "mongodb://localhost:27017")
   <br />--db <value>    db name (default: "chargeBee")
